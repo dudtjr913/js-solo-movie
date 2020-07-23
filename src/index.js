@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "./main/App";
+import Rou from "./router/rou";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Rou />, document.getElementById("root"));
